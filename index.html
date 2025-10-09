@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Porto — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Arimo:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">Portofolio</div>
+
+            <nav class="nav-desktop">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button id="burger" class="burger" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+
+        <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+            <a href="#hero" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#skills" class="mobile-link">Skills</a>
+            <a href="#portfolio" class="mobile-link">Portfolio</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <img src="imgs/Background.svg" alt="Hero background" class="hero-img" />
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+            <h1 class="hero-title">Hi, It's Théophile Seyrig</h1>
+            <p class="hero-sub">Designer from Porto, Portugal</p>
+            <a href="#portfolio" class="hero-link">Latest works</a>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Lorem ipsum dolor sit amet. Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
+                        penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus
+                        sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas
+                        aliquet mollis.
+                    </p>
+
+                    <p>
+                        Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in
+                        rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing
+                        elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skills-left">
+                    <img src="imgs/profile.jpg" Profile photo" class="skill-photo" />
+                </div>
+
+                <div class="skills-right">
+                    <div class="skill-row profile">
+                        <div class="skill-name">Profile</div>
+                        <div class="skill-value">UI / UX Engineer, Front-end Developer</div>
+                    </div>
+
+                    <div class="skill-row">
+                        <div class="skill-name">UX Research</div>
+                        <div class="skill-bars">
+                            <div class="bar">
+                                <div class="bar-fill" style="width:85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-row">
+                        <div class="skill-name">Tools</div>
+                        <div class="skill-value">Paper, Pen, Balsamiq</div>
+                    </div>
+
+                    <div class="skill-row">
+                        <div class="skill-name">UI Design</div>
+                        <div class="skill-bars">
+                            <div class="bar">
+                                <div class="bar-fill" style="width:75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-row">
+                        <div class="skill-name">Tools</div>
+                        <div class="skill-value">Adobe PS, AI, XD, Figma, InVision</div>
+                    </div>
+
+                    <div class="skill-row">
+                        <div class="skill-name">Front-end Dev</div>
+                        <div class="skill-bars">
+                            <div class="bar">
+                                <div class="bar-fill" style="width:80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-row">
+                        <div class="skill-name">Tools</div>
+                        <div class="skill-value">HTML, CSS, JS, Bootstrap, React</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="portfolio-section" id="portfolio">
+    <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="portfolio-content">
+        <div class="portfolio-text">
+            <h3>UX Research</h3>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum
+            nibh nam odio cursus id. Diam massa semper a tincidunt cursus
+            ultricies lectus eget urna.
+            </p>
+            <div class="arrows">
+            <button class="arrow left">‹</button>
+            <button class="arrow right">›</button>
+            </div>
+        </div>
+
+        <div class="portfolio-gallery">
+            <div class="image-grid">
+                <img src="imgs/project1.jpg" alt="Project 1" class="img1" />
+                <img src="imgs/project2.jpg" alt="Project 2" class="img2" />
+                <img src="imgs/project3.jpg" alt="Project 3" class="img3" />
+                <img src="imgs/project4.jpg" alt="Project 4" class="img4" />
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container contact-grid">
+            <div>
+                <h2 class="section-title">Get in Touch</h2>
+                <ul class="contacts-list">
+                    <li>Dribbble</li>
+                    <li>Behance</li>
+                    <li>CodePen</li>
+                    <li>GitHub</li>
+                    <li>Medium</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="contacts-list social-links">
+                    <li>LinkedIn</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <p>seyri@gmailme.com</p>
+                <p>+55 6645 665544</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const burger = document.getElementById('burger');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        burger.addEventListener('click', () => {
+            const isOpen = !mobileMenu.classList.contains('open');
+            if (isOpen) {
+                mobileMenu.classList.add('open');
+                mobileMenu.setAttribute('aria-hidden', 'false');
+            } else {
+                mobileMenu.classList.remove('open');
+                mobileMenu.setAttribute('aria-hidden', 'true');
+            }
+        });
+
+        document.querySelectorAll('.mobile-link').forEach(a => {
+            a.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                mobileMenu.setAttribute('aria-hidden', 'true');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
